@@ -12,7 +12,7 @@ export default function Home() {
       background: '#fafafa'
     }}>
       <div style={{
-        textAlign: 'center',
+        textAlign: 'left',
         maxWidth: '600px'
       }}>
         <div style={{
@@ -73,6 +73,24 @@ export default function Home() {
             onMouseLeave={(e) => e.target.style.opacity = '1'}
           >
             CV
+          </a>
+        </p>
+        <p style={{
+          fontSize: '16px',
+          marginTop: '23pt'
+        }}>
+          <a 
+            href="mailto:rindonjohnsonstudio@protonmail.com"
+            style={{
+              color: '#0066cc',
+              textDecoration: 'none',
+              borderBottom: '1px solid #0066cc',
+              transition: 'opacity 0.2s'
+            }}
+            onMouseEnter={(e) => e.target.style.opacity = '0.7'}
+            onMouseLeave={(e) => e.target.style.opacity = '1'}
+          >
+            Contact
           </a>
         </p>
       </div>
