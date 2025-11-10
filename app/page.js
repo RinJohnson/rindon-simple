@@ -5,9 +5,9 @@ export default function Home() {
     <div style={{
       minHeight: '100vh',
       display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      padding: '40px',
+      alignItems: 'left',
+      justifyContent: 'left',
+      padding: '70px',
       fontFamily: "'Franklin Gothic Book', 'Franklin Gothic Medium', 'Arial', sans-serif",
       background: '#fafafa'
     }}>
