@@ -18,11 +18,11 @@ export default function Home() {
         <div style={{
           color: '#ff0000',
           fontSize: '16px',
-          marginBottom: '23pt',
+          marginBottom: '40pt',
           textTransform: 'uppercase',
           letterSpacing: '0.1em'
         }}>
-          Under Construction
+          Sorry Under Construction
         </div>
 
         <h1 style={{
